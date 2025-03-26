@@ -1,0 +1,77 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.game-container img#vs {
+    width: 470px;
+    margin-top: 10px;
+    border-radius: 10px !important;
+    box-shadow: none !important;
+}
+
+img{
+    width: 150px;
+    border-radius: 45px;
+    box-shadow: 0 0 1rem #20EEFF;
+    margin-top: 10px;
+}
+
+.tittle{
+    border-bottom: 1px solid #20EEFF; 
+    box-shadow: 0 5px 10px -5px #20EEFF; 
+    padding-bottom: 10px; 
+    margin-bottom: 20px; 
+    text-align: center; 
+    text-shadow: 0 0 10px #20EEFF, 0 0 20px #20EEFF;
+}
+
+.game-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.player {
+    width: 200px;
+    padding: 20px;
+    background: black;
+    border-radius: 10px;
+    border: 2px solid #20EEFF;
+    box-shadow: 0 0 1rem #20EEFF;
+}
+
+.health-bar {
+    width: 100%;
+    height: 20px;
+    background: #20EEFF;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 15px;
+    cursor: pointer;
+    background-color: #20EEFF;
+    color:black;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem #20EEFF;
+}
+
+button:hover {
+    background: transparent;
+    color: white;
+    border: 2px solid #20EEFF;
+}
+
+.active {
+    background: #20ecff17;
+}
